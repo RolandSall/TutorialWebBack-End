@@ -10,7 +10,7 @@ import javax.persistence.Entity;
 @Builder
 @Getter
 @Setter
-@Entity
+
 public class TopicApiResponse {
     private int topicId;
     private String topicName;

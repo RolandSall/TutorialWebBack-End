@@ -1,4 +1,4 @@
-/*package com.rolandsalloum.TutorialWeb.Controller.TopicController;
+package com.rolandsalloum.TutorialWeb.Controller.TopicController;
 
 import com.rolandsalloum.TutorialWeb.Service.TopicService.TopicService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,4 +21,4 @@ public class TopicController {
     public ResponseEntity createTopic(@RequestBody TopicApiRequest request) {
         return null;
     }
-}*/
+}
