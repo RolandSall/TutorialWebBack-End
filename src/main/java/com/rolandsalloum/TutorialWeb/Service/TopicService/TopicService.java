@@ -68,10 +68,10 @@ public class TopicService implements ITopicService {
             Topic topic = iTopicRepositoryDAO.getOne(topicId);
 
             if (topic.equals(null))
-                throw new FailedtoFindTopics("Instructor Not Found !");
+                throw new FailedtoFindTopics("Topic Not Found !");
             return topic;
         } catch (Exception e) {
-            throw new FailedtoFindTopics("Instructor Not Found !");
+            throw new FailedtoFindTopics("Topic Not Found !");
         }
     }
 
